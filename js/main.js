@@ -11,3 +11,5 @@ let finePassword = "#24";
 let passWord = firstName + secondName + color + finePassword ;
 
 alert(passWord);
+
+document.getElementById("psswrd").innerHTML = `La tua Password é : ${passWord}`;
